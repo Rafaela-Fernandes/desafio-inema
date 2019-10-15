@@ -21,7 +21,14 @@
         background: #FFF
     }
     
- 
+    #nav-inema li a{
+        margin-left: 1%;
+    }
+
+   
+    #nav-inema ul{
+        margin-top: 2%
+    }
     
 }
 
