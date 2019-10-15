@@ -125,7 +125,7 @@ text-transform: uppercase;
 }
 
 
-#nav-inema li a:hover{
+#nav-inema li:hover{
     
     background: #FFF;
     transition: all 1s;

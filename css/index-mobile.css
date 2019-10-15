@@ -21,7 +21,7 @@
         background: #FFF
     }
     
-    #nav-inema li a:hover{
+    #nav-inema li:hover{
     border-radius: 0;
     
 }
