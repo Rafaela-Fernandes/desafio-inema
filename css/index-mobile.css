@@ -1,5 +1,5 @@
 
-@media(max-width:768px){
+@media(max-width:800px){
     
     #sessao-principal{
         width: 100%;
@@ -28,6 +28,10 @@
        
     }
     
+    #nav-inema li:hover{
+        background: transparent;
+        border-radius: 0;
+    }
 
 }
 
