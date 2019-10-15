@@ -23,32 +23,12 @@
     
  
    
-    #nav-inema ul{
-           width: 80%;
-    background-color:#2653698a;
-    float: right;
-    height: inherit
-    }
-    
     #nav-inema{
-/*         background: #4f7384;*/
-        height: 100vh;
-        border-top: solid #bdced6 1px;
-/*        background-blend-mode: color-burn;*/
-        background-image: url(../img/bg-header.png);
-    }
-    
-    #nav-inema ul li:hover{
-        background: transparent;
-        border-radius: none;
+        margin: 1% 5%;
        
     }
     
-    #nav-inema ul li a{
-        
-        margin-left: 5%;
-        color:#cad5da;
-    }
+
 }
 
 
