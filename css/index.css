@@ -117,7 +117,7 @@ font-weight: 300;
 }
 #nav-inema li a {
  
-  color: #2e8ebc;
+  color: #9cb4bf;
 font-family: Lato-Regular;
 font-size: 14px;
 font-weight: 300;
@@ -226,7 +226,15 @@ text-transform: uppercase;
     background-color: #FFF;
 }
 
+
+
+
 footter{
    border-top: solid 10px #1b546f;
     background: #FFF;
+}
+
+#cabecalho .navbar-toggler{
+   
+    border-color: rgb(79, 115, 132);
 }
