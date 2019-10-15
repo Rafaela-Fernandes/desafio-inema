@@ -1,0 +1,232 @@
+@font-face {
+    font-family:Lato-Regular;
+    src: url(../fonts/lato/Lato-Regular.ttf)
+}
+
+@font-face {
+    font-family:Merienda-Regular;
+    src: url(../fonts/merienda/Merienda-Regular.ttf)
+}
+
+@font-face {
+    font-family:myriad-pro-8;
+    src: url(../fonts/merienda/myriad-pro-8.otf)
+}
+
+@font-face {
+    font-family:arialmt;
+    src: url(../fonts/arial/arialmt.ttf)
+}
+
+
+
+
+
+#box-texto-data{
+    background: #1b546f;
+}
+.box-texto h4{
+    margin: 20% 0 10% 0
+}
+
+#sessao-principal h4{
+    color: #1b546f;
+font-family: Lato-Regular;
+font-size: 14px;
+font-weight: 500;
+text-transform: uppercase;
+}
+
+
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #faefde;
+    position: relative;
+}
+
+#sessao-principal .row:nth-child(1){
+    margin-top: -40px
+}
+main{
+    margin-top: -100px;
+}
+
+#box-texto-data p{
+   color: #fffefe;
+font-family: Lato-Regular;
+font-size: 12px;
+font-weight: 400; 
+}
+#box-texto-data h6{
+color: #2e8ebc;
+font-family: "arialmt";
+font-size: 12px;
+font-weight: 400;
+text-transform: uppercase;
+}
+
+#sessao-principal .btn{
+    color: #ffffff;
+font-family: Lato-Regular;
+font-size: 12px;
+font-weight: 400;
+text-transform: uppercase;
+    background-color: #1b546f;
+    margin-right: 4%;
+    border-radius: 0;
+    padding: 0.7rem 2rem
+}
+
+#sessao-principal .btn:hover{
+    background: #2d87b2 !important;
+    transition: all 1s;
+}
+hr{
+    width: 69%;
+    margin-top: 3%
+}
+p,
+h1,
+h2.h3,
+h4,
+h5,
+h6 {
+
+    padding: 0;
+    margin: 0;
+}
+
+
+#cabecalho .navbar {
+
+    background: #1b546f;
+    position: fixed;
+    width: 100%;
+    z-index: 2
+  
+
+}
+
+.box-texto{
+  color: #666666;
+font-family:Lato-Regular;
+font-size: 14px;
+font-weight: 300;  
+}
+#nav-inema li a {
+ 
+  color: #2e8ebc;
+font-family: Lato-Regular;
+font-size: 14px;
+font-weight: 300;
+text-transform: uppercase;
+}
+
+
+#nav-inema li a:hover{
+    
+    background: #FFF;
+    transition: all 1s;
+    border-radius: 20px
+    
+}
+
+#bg-header {
+    background-image: url("../img/bg-header.png");
+    background-repeat: no-repeat;
+    height: 681px;
+    background-size: cover;
+    background-position: center;
+    
+
+
+
+}
+
+#box-paragrafos {
+    width: 400px;
+    height: 179px;
+    position: relative;
+  
+    margin-top: 7rem
+}
+
+#box-paragrafos p:nth-child(1) {
+
+    text-shadow: 1px 1px 2px rgba(101, 100, 100, 0.75);
+    color: #797878;
+    font-family: "Merienda-Regular";
+    font-size: 43px;
+    font-weight: 400;
+}
+
+#box-paragrafos p:nth-child(2) {
+    color: #797878;
+    font-family: "myriad-pro-8";
+    font-size: 26px;
+    font-weight: 400;
+}
+
+
+
+#box-bordas div {
+
+    position: absolute;
+    height: 35px;
+    width: 35px;
+}
+
+#box-bordas div:nth-child(1) {
+    top: 0;
+    left: 0;
+    border-top-left-radius: 10px;
+    border-top: 2px solid #FFF;
+    border-left: 2px solid #FFF;
+}
+
+#box-bordas div:nth-child(2) {
+    top: 0;
+    right: 0;
+    border-top-right-radius: 10px;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+}
+
+#box-bordas div:nth-child(3) {
+    bottom: 0;
+    left: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom: 2px solid #FFF;
+    border-left: 2px solid #FFF;
+}
+
+#box-bordas div:nth-child(4) {
+    bottom: 0;
+    right: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+}
+
+#conteudo-principal{
+    height: max-content;
+    margin: 0 5%;
+    background-color: #FFF;
+    padding-bottom: 7rem;
+    
+}
+
+
+
+#sessao-principal{
+    width: 80%;
+    min-height: max-content;
+    background-color: #FFF;
+}
+
+footter{
+   border-top: solid 10px #1b546f;
+    background: #FFF;
+}
