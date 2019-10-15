@@ -21,23 +21,20 @@
         background: #FFF
     }
     
-    #nav-inema li a{
-        margin-left: 1%;
-    }
-
+ 
    
     #nav-inema ul{
            width: 80%;
-    background-color: #26536959;
+    background-color:#2653698a;
     float: right;
     height: inherit
     }
     
     #nav-inema{
-         background: #4f7384;
+/*         background: #4f7384;*/
         height: 100vh;
-        border-top: solid #d8e3e475 1px;
-        background-blend-mode: color-burn;
+        border-top: solid #bdced6 1px;
+/*        background-blend-mode: color-burn;*/
         background-image: url(../img/bg-header.png);
     }
     
@@ -49,7 +46,8 @@
     
     #nav-inema ul li a{
         
-        margin-left: 5%
+        margin-left: 5%;
+        color:#cad5da;
     }
 }
 
