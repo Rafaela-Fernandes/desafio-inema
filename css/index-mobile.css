@@ -21,6 +21,11 @@
         background: #FFF
     }
     
+    #nav-inema li a:hover{
+    border-radius: 0;
+    
+}
+    
 }
 
 
