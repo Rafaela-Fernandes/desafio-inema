@@ -82,6 +82,7 @@ text-transform: uppercase;
 #sessao-principal .btn:hover{
     background: #2d87b2 !important;
     transition: all 1s;
+    cursor: poninter
 }
 hr{
     width: 69%;

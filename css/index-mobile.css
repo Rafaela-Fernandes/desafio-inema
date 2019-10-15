@@ -32,6 +32,15 @@
         background: transparent;
         border-radius: 0;
     }
+    
+    #box-texto-data{
+        height: 200px
+    }
+    
+    #box-texto-data article{
+         margin: 8% 0
+    }
+   
 
 }
 
@@ -63,5 +72,7 @@
        
     }
     
-    
+      #box-texto-data article{
+         margin: 17% 0
+    }
 }
