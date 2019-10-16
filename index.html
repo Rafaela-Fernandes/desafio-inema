@@ -23,25 +23,25 @@
 
         <nav class="navbar navbar-expand-lg navbar-light  text-uppercase py-lg-2 p-0">
 
-            <button class="navbar-toggler m-3" type="button" data-toggle="collapse"  aria-controls="nav-inema" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler m-3" type="button" data-toggle="collapse" aria-controls="nav-inema" aria-expanded="false" aria-label="Toggle navigation">
                 <img src="https://img.icons8.com/color/30/000000/menu.png">
             </button>
 
             <div class="collapse navbar-collapse" id="nav-inema">
                 <ul class="navbar-nav ml-lg-5 ml-md-0">
                     <li class="nav-item px-1">
-                        <a class="nav-link" href="#">início</a>
+                        <a class="nav-link scroll" href="#cabecalho">início</a>
                     <li class="nav-item px-1">
-                        <a class="nav-link" href="#">o concurso</a>
+                        <a class="nav-link scroll" href="#concurso">o concurso</a>
                     </li>
                     <li class="nav-item px-1">
-                        <a class="nav-link" href="#">sobre</a>
+                        <a class="nav-link scroll" href="#sobre">sobre</a>
                     </li>
                     <li class="nav-item px-1">
-                        <a class="nav-link" href="#">regras</a>
+                        <a class="nav-link scroll" href="#regras">regras</a>
                     </li>
                     <li class="nav-item px-1">
-                        <a class="nav-link" href="#">inscrição</a>
+                        <a class="nav-link scroll " data-toggle="modal" data-target="#inscricao" href="#inscricao">inscrição</a>
                     </li>
                 </ul>
             </div>
@@ -75,7 +75,7 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-5  col-md-12 d-flex align-items-lg-end  p-0">
 
-                    <article class="px-lg-3 px-0">
+                    <article class="px-lg-3 px-0" id="concurso">
 
                         <div class="box-texto pr-lg-5 pr-md-0">
                             <h4 class="text-center">O CONCURSO</h4>
@@ -109,7 +109,7 @@
                     </article>
                 </div>
                 <div class="col-lg-8 col-md-12 mt-5">
-                    <button class="btn  float-right">FAÇA SUA INSCRIÇÃO</button>
+                    <button class="btn  float-right" data-toggle="modal" data-target="#inscricao">FAÇA SUA INSCRIÇÃO</button>
                 </div>
             </div>
 
@@ -117,7 +117,7 @@
 
             <div class="row mt-5">
                 <div class="col-lg-8 col-md-12 mx-auto px-0">
-                    <article>
+                    <article id="sobre">
                         <h4 class="text-center mb-5">SOBRE</h4>
                         <div class="box-texto">
                             <p class="mb-4">Objetivos</p>
@@ -139,12 +139,11 @@
 
             <div class="row my-5">
                 <div class="col-lg-8  col-md-12 mx-auto px-0">
-                    <article>
+                    <article id="regras">
                         <h4 class="text-center mb-5">REGRAS</h4>
                         <div class="box-texto">
                             <p class="mb-4">Todas as fotos que retrate da temática água (tais como situação de secas ou excedentes hídricos, as belezas e os desafios de se trabalhar com os recursos hídricos etc.) serão bem vindas.</p>
-                            <ul style="    padding: 0;
-    margin-left: 2%">
+                            <ul class="p-0 ml-3">
                                 <li class="mb-2">As fotos devem ser originais e sem alterações.</li>
                                 <li class="mb-2">As fotos devem expor os ambientes visitados em inspeções técnicas realizadas durante inspeções pelo INEMA.</li>
                                 <li class="mb-2"> Fotografias que incluam pessoas serão desclassificadas.</li>
@@ -184,12 +183,60 @@
 
 
 
+    <!-- Modal inscricao -->
+
+    <div class="modal fade" id="inscricao" tabindex="-1" role="dialog" aria-labelledby="inscricao" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><img src="https://img.icons8.com/color/40/000000/inscription.png"> Inscrição</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row mt-4 mb-3">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Nome">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Sobrenome">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                           
+                            <input type="email" class="form-control" id="nome" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            
+                            <select class="form-control" id="cidades">
+                                <option>Escolha Cidade</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-modal">Salvar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 
 </body>
 

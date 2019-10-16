@@ -67,17 +67,22 @@ font-weight: 400;
 text-transform: uppercase;
 }
 
-#sessao-principal .btn{
+#sessao-principal .btn, .btn-modal{
     color: #ffffff;
 font-family: Lato-Regular;
 font-size: 12px;
 font-weight: 400;
 text-transform: uppercase;
     background-color: #1b546f;
-    margin-right: 4%;
+  
     border-radius: 0;
     padding: 0.7rem 2rem
 }
+
+#sessao-principal .btn{
+ margin-right: 4%;   
+}
+  
 
 #sessao-principal .btn:hover{
     background: #2d87b2 !important;
@@ -228,6 +233,18 @@ text-transform: uppercase;
 }
 
 
+#inscricao .modal-title{
+color: #ffffff;
+font-family: Lato-Regular;
+font-size: 16px;
+font-weight: 400;
+text-transform: uppercase;
+}
+
+#inscricao .modal-header{
+   background: #1b546f; 
+    border-radius: 0 !important;
+}
 
 
 footter{
