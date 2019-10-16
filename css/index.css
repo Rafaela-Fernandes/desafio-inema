@@ -84,10 +84,11 @@ text-transform: uppercase;
 }
   
 
-#sessao-principal .btn:hover{
+#sessao-principal .btn:hover, .btn-modal:hover{
     background: #2d87b2 !important;
     transition: all 1s;
-    cursor: poninter
+    cursor: poninter;
+    color:#FFF;
 }
 hr{
     width: 69%;

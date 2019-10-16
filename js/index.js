@@ -8,10 +8,7 @@
          }, 700)
      })
 
-     $("#nav-inema a").click(function () {
-         $("#nav-inema").hide('fade')
-
-     })
+    
      
      
      // scroll para rolar ate alvo
@@ -21,6 +18,8 @@
          $('html,body').animate({
              scrollTop: $(this.hash).offset().top
          }, 600);
+         
+          $("#nav-inema").hide('fade')
        
      });
  })
