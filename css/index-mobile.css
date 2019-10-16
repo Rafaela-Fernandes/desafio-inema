@@ -1,5 +1,7 @@
 @media(max-width:800px) {
-
+    #logo-inema{
+        display: block;
+    }
     #sessao-principal {
         width: 100%;
         padding: 0 3rem

@@ -257,3 +257,7 @@ footter{
    
     border-color: rgb(79, 115, 132);
 }
+
+ #logo-inema{
+        display: none;
+    }
